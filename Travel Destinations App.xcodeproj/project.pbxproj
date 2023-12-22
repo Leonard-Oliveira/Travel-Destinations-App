@@ -41,6 +41,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB081D462B222A49002FE0DC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AB76E54E2B20D7D80027CACA /* AppDelegate.swift */,
+				AB76E5502B20D7D80027CACA /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AB081D472B222A56002FE0DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB081D482B222A89002FE0DC /* Header */,
+				AB76E5522B20D7D80027CACA /* ViewController.swift */,
+				AB76E5542B20D7D80027CACA /* Main.storyboard */,
+				AB76E5592B20D7DA0027CACA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB081D482B222A89002FE0DC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				AB76E56A2B20FF6B0027CACA /* HomeTableViewHeader.swift */,
+				AB76E5682B20FEFB0027CACA /* HomeTableViewHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		AB081D492B222AB8002FE0DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB081D4A2B222AC5002FE0DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		AB76E5422B20D7D80027CACA = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +103,11 @@
 		AB76E54D2B20D7D80027CACA /* Travel Destinations App */ = {
 			isa = PBXGroup;
 			children = (
-				AB76E54E2B20D7D80027CACA /* AppDelegate.swift */,
-				AB76E5502B20D7D80027CACA /* SceneDelegate.swift */,
-				AB76E5522B20D7D80027CACA /* ViewController.swift */,
-				AB76E56A2B20FF6B0027CACA /* HomeTableViewHeader.swift */,
-				AB76E5542B20D7D80027CACA /* Main.storyboard */,
-				AB76E5682B20FEFB0027CACA /* HomeTableViewHeader.xib */,
+				AB081D462B222A49002FE0DC /* AppDelegate */,
+				AB081D492B222AB8002FE0DC /* Model */,
+				AB081D472B222A56002FE0DC /* View */,
+				AB081D4A2B222AC5002FE0DC /* ViewModel */,
 				AB76E5572B20D7DA0027CACA /* Assets.xcassets */,
-				AB76E5592B20D7DA0027CACA /* LaunchScreen.storyboard */,
 				AB76E55C2B20D7DA0027CACA /* Info.plist */,
 			);
 			path = "Travel Destinations App";
