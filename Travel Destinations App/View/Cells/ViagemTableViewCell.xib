@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ViagemTableViewCell" customModule="Travel_Destinations_App" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ViagemTableViewCell" id="KGk-i7-Jjw" customClass="ViagemTableViewCell" customModule="Travel_Destinations_App" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seX-zy-BBA" userLabel="BackgroundView">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6iN-FU-LRO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6iN-FU-LRO">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="jPz-gd-mV9"/>
@@ -111,6 +111,16 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="seX-zy-BBA" id="iMk-xe-BEl"/>
+                <outlet property="diariaViagemLabel" destination="dmu-cv-Qcb" id="YqE-36-EEg"/>
+                <outlet property="precoSemDescontoLabel" destination="IwD-ql-7aL" id="fNi-RK-HRD"/>
+                <outlet property="precoViagemLabel" destination="RHh-cZ-h9V" id="a4K-gT-FbS"/>
+                <outlet property="statusCancelamentoViagemLabel" destination="RQG-xl-2VB" id="kAi-lv-obP"/>
+                <outlet property="subtituloViagemLabel" destination="jG5-IB-8bS" id="atV-zA-GVh"/>
+                <outlet property="tituloViagemLabel" destination="g3j-qG-3NA" id="vyk-gS-qPP"/>
+                <outlet property="viagemImage" destination="6iN-FU-LRO" id="MiJ-b0-wDy"/>
+            </connections>
             <point key="canvasLocation" x="-18.320610687022899" y="16.901408450704228"/>
         </tableViewCell>
     </objects>
