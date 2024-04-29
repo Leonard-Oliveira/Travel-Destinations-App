@@ -24,6 +24,9 @@
 		AB8842F22BDBFA63008A8615 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8842F12BDBFA63008A8615 /* UIView+Extension.swift */; };
 		AB8842F42BDBFB09008A8615 /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8842F32BDBFB09008A8615 /* ViagemViewModel.swift */; };
 		AB8842F62BDBFBE6008A8615 /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8842F52BDBFBE6008A8615 /* ViagemDestaqueViewModel.swift */; };
+		AB8843012BDFE14C008A8615 /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8843002BDFE14C008A8615 /* OfertaTableViewCell.xib */; };
+		AB8843022BDFE14C008A8615 /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8842FF2BDFE14C008A8615 /* OfertaTableViewCell.swift */; };
+		AB8843042BDFE312008A8615 /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8843032BDFE312008A8615 /* ViagemOfertaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		AB8842F12BDBFA63008A8615 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		AB8842F32BDBFB09008A8615 /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
 		AB8842F52BDBFBE6008A8615 /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
+		AB8842FF2BDFE14C008A8615 /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
+		AB8843002BDFE14C008A8615 /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
+		AB8843032BDFE312008A8615 /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 			children = (
 				AB8842F32BDBFB09008A8615 /* ViagemViewModel.swift */,
 				AB8842F52BDBFBE6008A8615 /* ViagemDestaqueViewModel.swift */,
+				AB8843032BDFE312008A8615 /* ViagemOfertaViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -142,8 +149,8 @@
 		AB8842DC2BDB0AC6008A8615 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				AB8842DD2BDB0B00008A8615 /* ViagemTableViewCell.swift */,
-				AB8842DE2BDB0B00008A8615 /* ViagemTableViewCell.xib */,
+				AB8842FD2BDFE106008A8615 /* Destaque */,
+				AB8842FE2BDFE11B008A8615 /* Oferta */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -162,6 +169,24 @@
 				AB8842F12BDBFA63008A8615 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB8842FD2BDFE106008A8615 /* Destaque */ = {
+			isa = PBXGroup;
+			children = (
+				AB8842DD2BDB0B00008A8615 /* ViagemTableViewCell.swift */,
+				AB8842DE2BDB0B00008A8615 /* ViagemTableViewCell.xib */,
+			);
+			path = Destaque;
+			sourceTree = "<group>";
+		};
+		AB8842FE2BDFE11B008A8615 /* Oferta */ = {
+			isa = PBXGroup;
+			children = (
+				AB8842FF2BDFE14C008A8615 /* OfertaTableViewCell.swift */,
+				AB8843002BDFE14C008A8615 /* OfertaTableViewCell.xib */,
+			);
+			path = Oferta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +253,7 @@
 				AB8842E82BDBF6D1008A8615 /* LaunchScreen.storyboard in Resources */,
 				AB8842DF2BDB0B00008A8615 /* ViagemTableViewCell.xib in Resources */,
 				AB8842E22BDBEEDA008A8615 /* HomeTableViewHeader.xib in Resources */,
+				AB8843012BDFE14C008A8615 /* OfertaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +268,8 @@
 				AB76E5532B20D7D80027CACA /* ViewController.swift in Sources */,
 				AB8842E02BDB0B00008A8615 /* ViagemTableViewCell.swift in Sources */,
 				AB76E56B2B20FF6B0027CACA /* HomeTableViewHeader.swift in Sources */,
+				AB8843042BDFE312008A8615 /* ViagemOfertaViewModel.swift in Sources */,
+				AB8843022BDFE14C008A8615 /* OfertaTableViewCell.swift in Sources */,
 				AB8842F62BDBFBE6008A8615 /* ViagemDestaqueViewModel.swift in Sources */,
 				AB8842EE2BDBFA44008A8615 /* TiposDeViagens.swift in Sources */,
 				AB8842EC2BDBFA3A008A8615 /* DecodableData.swift in Sources */,
