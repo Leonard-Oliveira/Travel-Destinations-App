@@ -27,7 +27,8 @@
 		038864AF26D3EF91002A4753 /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038864AD26D3EF91002A4753 /* OfertaTableViewCell.swift */; };
 		038864B026D3EF91002A4753 /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038864AE26D3EF91002A4753 /* OfertaTableViewCell.xib */; };
 		038864B226D41A68002A4753 /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */; };
-		AB8C3B9C2BE0865E00497144 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C3B9B2BE0865E00497144 /* DetalheViewController.swift */; };
+		AB1AC0EC2BE1C3560037A180 /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1AC0EB2BE1C3560037A180 /* DetalheViewController.xib */; };
+		AB1AC0ED2BE1C3560037A180 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1AC0EA2BE1C3560037A180 /* DetalheViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +54,8 @@
 		038864AD26D3EF91002A4753 /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
 		038864AE26D3EF91002A4753 /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
 		038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
-		AB8C3B9B2BE0865E00497144 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		AB1AC0EA2BE1C3560037A180 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		AB1AC0EB2BE1C3560037A180 /* DetalheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalheViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				0353E14525FD570200221138 /* ViewController.swift */,
-				AB8C3B9B2BE0865E00497144 /* DetalheViewController.swift */,
 				0353E14725FD570200221138 /* Main.storyboard */,
+				AB1AC0E92BE1C32A0037A180 /* DetalheViewController */,
 				03965CD52662D76600CEDD53 /* Header */,
 				03588E6E2663DEAC00BF0C82 /* Cells */,
 			);
@@ -190,6 +192,15 @@
 				038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB1AC0E92BE1C32A0037A180 /* DetalheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB1AC0EA2BE1C3560037A180 /* DetalheViewController.swift */,
+				AB1AC0EB2BE1C3560037A180 /* DetalheViewController.xib */,
+			);
+			path = DetalheViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1AC0EC2BE1C3560037A180 /* DetalheViewController.xib in Resources */,
 				0353E14E25FD570200221138 /* LaunchScreen.storyboard in Resources */,
 				03588E7C266439BF00BF0C82 /* server-response.json in Resources */,
 				0353E15B25FD636500221138 /* HomeTableViewHeader.xib in Resources */,
@@ -278,7 +290,7 @@
 				0353E14225FD570200221138 /* AppDelegate.swift in Sources */,
 				0353E14425FD570200221138 /* SceneDelegate.swift in Sources */,
 				03588E8C26643A9600BF0C82 /* ViagemViewModel.swift in Sources */,
-				AB8C3B9C2BE0865E00497144 /* DetalheViewController.swift in Sources */,
+				AB1AC0ED2BE1C3560037A180 /* DetalheViewController.swift in Sources */,
 				03588E8F26643B6A00BF0C82 /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
